@@ -18,7 +18,7 @@ Lumina Market is a pioneering platform that enables "Tokenization" of liquidity 
 
 ## 🔄 System Workflow
 
-![System Workflow Diagram](https://raw.githubusercontent.com/your-username/your-repo/main/system_workflow_diagram.svg)
+![System Workflow Diagram](https://raw.githubusercontent.com/maixuancanh/lumina-market/main/system_workflow_diagram.svg)
 
 ### **Workflow Steps:**
 
@@ -38,7 +38,7 @@ Lumina Market is a pioneering platform that enables "Tokenization" of liquidity 
 
 ## 🏗️ System Architecture
 
-![System Architecture Diagram](https://raw.githubusercontent.com/your-username/your-repo/main/system_architecture_diagram.svg)
+![System Architecture Diagram](https://raw.githubusercontent.com/maixuancanh/lumina-market/main/system_architecture_diagram.svg)
 
 ### **Frontend (Next.js 14)**
 - **Dashboard:** Real-time AI Agent and strategy monitoring
