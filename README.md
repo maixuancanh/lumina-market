@@ -321,6 +321,12 @@ node check-lp-agent-api.js
 - **🔧 Backend:** https://lumina-market-backend-production.up.railway.app
 - **📱 Demo:** Full production application ready for hackathon
 
+### **API Integration**
+- **Request URL:** `https://lumina-market-backend-production.up.railway.app/api/strategies`
+- **Health Check:** `https://lumina-market-backend-production.up.railway.app/api/health`
+- **LP Agent API:** `https://lumina-market-backend-production.up.railway.app/api/lp-agent/pools`
+- **AI Agent Status:** `https://lumina-market-backend-production.up.railway.app/api/ai-agent/status`
+
 ### **Production Setup**
 1. **Backend:** Railway deployment with Docker
 2. **Frontend:** Vercel deployment with custom domain
