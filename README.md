@@ -180,7 +180,7 @@ npm run dev
 # Backend (.env)
 PORT=4002
 OLLAMA_API_KEY=your_ollama_api_key
-LP_AGENT_API_KEY=lpagent_881f399cb9e7c2415660a3a877bed58e
+LP_AGENT_API_KEY=your_lpagent_api_key
 LP_AGENT_API_URL=https://api.lpagent.io
 MOCK_MODE=false
 
