@@ -1,6 +1,26 @@
 import React from 'react';
-import { Strategy, RiskLevel } from '../../../backend/src/models/Strategy';
 import { TrendingUp, AlertTriangle, Zap, ShieldCheck } from 'lucide-react';
+
+interface Strategy {
+  id: string;
+  name: string;
+  description: string;
+  riskLevel: 'Low' | 'Medium' | 'High';
+  pnl: number;
+  maxDrawdown: number;
+  totalValueLocked: number;
+  isActive: boolean;
+  performance: {
+    totalProfitPercent: number;
+    maxDrawdownPercent: number;
+  };
+}
+
+interface RiskLevel {
+  level: 'Low' | 'Medium' | 'High';
+  color: string;
+  description: string;
+}
 
 interface StrategyCardProps {
   strategy: Strategy;
@@ -8,7 +28,7 @@ interface StrategyCardProps {
 }
 
 const StrategyCard: React.FC<StrategyCardProps> = ({ strategy, onInvest }) => {
-  const getRiskColor = (level: RiskLevel) => {
+  const getRiskColor = (level: string) => {
     switch (level) {
       case 'Low': return 'text-green-500 bg-green-500/10';
       case 'Medium': return 'text-yellow-500 bg-yellow-500/10';

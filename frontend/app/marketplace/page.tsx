@@ -3,8 +3,22 @@
 import React, { useEffect, useState } from 'react';
 import { api } from '@/lib/api';
 import StrategyCard from '@/components/StrategyCard';
-import { Strategy } from '../../../backend/src/models/Strategy';
 import { Search, Filter, TrendingUp, Wallet } from 'lucide-react';
+
+interface Strategy {
+  id: string;
+  name: string;
+  description: string;
+  riskLevel: 'Low' | 'Medium' | 'High';
+  pnl: number;
+  maxDrawdown: number;
+  totalValueLocked: number;
+  isActive: boolean;
+  performance: {
+    totalProfitPercent: number;
+    maxDrawdownPercent: number;
+  };
+}
 
 export default function MarketplacePage() {
   const [strategies, setStrategies] = useState<Strategy[]>([]);
