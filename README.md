@@ -314,11 +314,16 @@ node check-lp-agent-api.js
 
 ---
 
-## 🚀 Deployment
+## 🚀 Production Deployment
+
+### **Live URLs**
+- **🌐 Frontend:** https://lumiamarketlpagent.vercel.app
+- **🔧 Backend:** https://lumina-market-backend-production.up.railway.app
+- **📱 Demo:** Full production application ready for hackathon
 
 ### **Production Setup**
-1. **Backend:** `npm run build && npm start`
-2. **Frontend:** `npm run build && npm start`
+1. **Backend:** Railway deployment with Docker
+2. **Frontend:** Vercel deployment with custom domain
 3. **AI Agent:** Auto-starts with backend
 4. **Monitoring:** Real-time health checks
 
@@ -327,6 +332,11 @@ node check-lp-agent-api.js
 - **Production:** Domain-based URLs
 - **API Keys:** Environment-specific
 - **Database:** In-memory (demo) → PostgreSQL (production)
+
+### **API Integration**
+- **Frontend → Backend:** https://lumina-market-backend-production.up.railway.app
+- **Backend Services:** LP Agent API, Ollama AI, Solana RPC
+- **Real-time Data:** 24/7 monitoring and execution
 
 ---
 
