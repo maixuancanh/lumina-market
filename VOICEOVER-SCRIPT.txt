@@ -1,0 +1,136 @@
+# 🎬 Voiceover Script for Demo Video
+# Dành cho người đọc text thành giọng nói
+
+## 🎯 Phút 0:00 - 0:30 - Giới thiệu dự án
+
+"Xin chào ban giám khảo, tôi là [Tên], thành viên đội Lumina Market.
+
+Hôm nay tôi xin trình bày dự án Lumina Market - một nền tảng đột phá cho thị trường cung cấp thanh khoản trên Solana.
+
+Vấn đề chúng tôi giải quyết: Việc cung cấp LP đòi hỏi kiến thức sâu về quản lý rủi ro, theo dõi Volume và APY liên tục. Hầu hết người dùng phổ thông không có thời gian hoặc kỹ năng để tối ưu hóa vị thế LP của mình.
+
+Giải pháp của chúng tôi:
+- Đối với Strategists: Cung cấp công cụ No-code Builder sử dụng AI để chuyển đổi ý tưởng giao dịch thành logic thực thi mà không cần viết code.
+- Đối với Investors: Cung cấp marketplace minh bạch với Proof of Profit cho phép họ đầu tư vào những chiến lược hiệu quả nhất thông qua AI Agent."
+
+## 🎯 Phút 0:30 - 1:00 - Demo System Workflow
+
+"Đầu tiên, tôi sẽ hướng dẫn qua luồng hoạt động của hệ thống.
+
+Như các bạn thấy trên màn hình, chúng tôi có 4 bước chính:
+
+Bước một: Tạo Chiến lược - Strategist sử dụng AI Builder để chuyển đổi ngôn ngữ tự nhiên thành logic JSON.
+
+Bước hai: Chứng minh hiệu quả - Hệ thống backtest chiến lược với dữ liệu lịch sử từ LP Agent API.
+
+Bước ba: Đầu tư và Kích hoạt - Investors lướt marketplace, lựa chọn chiến lược và kích hoạt AI Agent.
+
+Bước bốn: Thực thi tự động - AI Agent chạy 24/7 để theo dõi điều kiện thị trường và thực thi các chiến lược.
+
+Đây chính là sự kết hợp hoàn hảo giữa AI, Blockchain, và DeFi!"
+
+## 🎯 Phút 1:00 - 1:30 - Demo AI Builder
+
+"Bây giờ tôi sẽ demo tính năng năng cốt lõi của Lumina Market - AI Builder.
+
+Trên màn hình các bạn thấy là trang Builder. Tôi sẽ nhập một chiến lược bằng ngôn ngữ tự nhiên:
+
+'If SOL-USDC volume increases by 25% in 1 hour and APY is above 15%, zap in 75% of capital. If price volatility exceeds 5% in 30 minutes, zap out to preserve capital.'
+
+Sau đó tôi click 'Analyze Strategy', AI Ollama Gemma3:12B của chúng tôi sẽ phân tích và tạo ra JSON logic.
+
+Kết quả: AI sẽ tạo ra các điều kiện và hành động cụ thể:
+- Conditions: volume tăng 25%, APY trên 15%
+- Actions: zap in 75% vốn
+- Frequency: realtime
+
+Từ đó có thể mint thành Strategy NFT!"
+
+## 🎯 Phút 1:30 - 2:00 - Demo Dashboard
+
+"Tiếp theo, tôi sẽ chuyển sang Dashboard để cho thấy AI Agent đang hoạt động như thế nào.
+
+Trên Dashboard, các bạn sẽ thấy:
+- AI Agent Status: đang Running 24/7
+- Real-time Pool Data: APY 18.5%, TVL 2.5 triệu đô la, Volume 150 nghìn đô la
+- Strategy Performance: 3 chiến lược đang active
+- Execution Logs: các giao dịch Zap in/out được thực thi
+
+AI Agent của chúng tôi đang theo dõi dữ liệu từ LP Agent API theo thời gian thực. Khi điều kiện được thỏa mãn, nó sẽ tự động gọi Zap in/out!"
+
+## 🎯 Phút 2:00 - 2:30 - Demo Marketplace
+
+"Bây giờ tôi sẽ demo Marketplace nơi các nhà đầu tư có thể tìm và đầu tư vào các chiến lược.
+
+Trên Marketplace, các bạn sẽ thấy:
+- 3 chiến lược đang available: Solana Stable Growth, Aggressive Volatility Hunter, Delta Neutral Guard
+- Mỗi chiến lược có: biểu đồ PnL, Max Drawdown, Risk Level
+- Nút 'Invest Now' để kích hoạt AI Agent
+
+Đây chính là nơi trí tuệ được token hóa thành NFT, tạo ra một thị trường minh bạch cho các chiến lược LP!"
+
+## 🎯 Phút 2:30 - 3:00 - Tổng kết và Kêu gọi hành động
+
+"Tổng kết lại, Lumina Market không chỉ là một dự án công nghệ, mà còn là một cuộc cách mạng trong thế giới DeFi.
+
+Với Lumina Market:
+- Strategists có thể kiếm tiền từ trí tuệ của mình
+- Investors có thể tiếp cận các chiến lược chuyên nghiệp
+- AI Agent đảm bảo thực thi 24/7 không cảm xúc
+- Tất cả minh bạch và được chứng minh bằng dữ liệu thật
+
+Điểm khác biệt của chúng tôi:
+1. Tích hợp Ollama AI thật với mô hình Gemma3:12B
+2. Sử dụng LP Agent API với dữ liệu thật
+3. Zap operations thực thi trên blockchain
+4. No-code interface cho người dùng phổ thông
+
+Lumina Market đang chạy hoàn hảo:
+- Backend trên port 4002
+- Frontend trên port 3000
+- AI Agent monitoring 24/7
+- Tất cả endpoints hoạt động với real data!
+
+Mời ban giám khảo truy cập:
+- GitHub Repository: github.com/maixuancanh/lumina-market
+- Live Demo: sẵn sàng deploy khi cần
+- Documentation: đầy đủ trong README
+
+Xin chân thành cảm ơn!"
+
+---
+
+## 🎬 Tips cho giọng nói
+
+### **Tốc độ:**
+- Nói chậm và rõ ràng (khoảng 150 từ/phút)
+- Ngắt nghỉ tự nhiên giữa các câu
+- Nhấn mạnh vào các từ khóa quan trọng
+
+### **Tông giọng:**
+- Tự tin và nhiệt huyết
+- Rõ ràng khi giải thích kỹ thuật
+- Thuyết phục khi nói về innovation
+
+### **Từ khóa nhấn mạnh:**
+- "AI-powered" - nhấn mạnh vào công nghệ
+- "24/7 monitoring" - nhấn mạnh vào tự động
+- "Real data" - nhấn mạnh vào tính thực tế
+- "No-code" - nhấn mạnh sự đơn giản
+- "Transparent" - nhấn mạnh vào minh bạch
+
+### **Ngữ điệu:**
+- Giới thiệu: chuyên nghiệp, trang trọng
+- Demo: hào hứng, giải thích rõ ràng
+- Kết thúc: kêu gọi hành động, tự tin
+
+---
+
+## 🎯 Checklist trước khi ghi giọng
+
+- [ ] Đọc chậm và rõ ràng
+- [ ] Nhấn mạnh từ khóa
+- [ ] Ngắt nghỉ tự nhiên
+- [ ] Giữ tông giọng tự tin
+- [ ] Thời gian tổng: 3 phút
+- [ ] Không nói quá nhanh/nhá quá chậm
