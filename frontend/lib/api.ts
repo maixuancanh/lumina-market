@@ -1,5 +1,5 @@
 const API_BASE_URL =
-  process.env.NEXT_PUBLIC_API_URL || "http://localhost:4002/api";
+  process.env.NEXT_PUBLIC_API_URL || "https://lumina-market-backend-production.up.railway.app/api";
 
 async function handleResponse<T>(response: Response): Promise<T> {
   if (!response.ok) {
