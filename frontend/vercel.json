@@ -5,13 +5,13 @@
   "framework": "nextjs",
   "regions": ["sin1"],
   "env": {
-    "NEXT_PUBLIC_API_URL": "@backend-url",
+    "NEXT_PUBLIC_API_URL": "https://lumina-market-backend-production.up.railway.app",
     "NEXT_PUBLIC_APP_NAME": "Lumina Market",
     "NEXT_PUBLIC_APP_DESCRIPTION": "AI-Powered Liquidity Strategy Marketplace"
   },
   "build": {
     "env": {
-      "NEXT_PUBLIC_API_URL": "@backend-url"
+      "NEXT_PUBLIC_API_URL": "https://lumina-market-backend-production.up.railway.app"
     }
   },
   "functions": {
